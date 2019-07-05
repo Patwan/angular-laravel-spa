@@ -15,6 +15,8 @@ This repo shows how to create a Single Page Application authentication system us
 * Navigate to the **src/app/Services/token.service.ts** file and set the correct route to hit your backend.Used for token services and authentication when signing up. 
 * Run **ng serve** to spin up your local server.
 
+Please check the frontend repo link [here](https://github.com/Patwan/angular-frontend-spa)
+
 ## Backend Installation
 * Clone the backend folder using **git clone** into your favorite server
 **nginx** or **apache**
