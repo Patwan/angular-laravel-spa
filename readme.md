@@ -8,15 +8,6 @@ This repo shows how to create a Single Page Application authentication system us
 * Authentication system whereby a user can login/logout and reset password
 * CRUD functionality for authenticated users.
 
-## Frontend Installation
-* Clone the frontend folder using **git clone**
-* Run **npm install** which will read all the dependencies defined in the package.json file and automatically install them.
-* Use your favorite IDE and navigate to the **src/app/Services/auth.service.ts** file and set the correct route to hit your backend.
-* Navigate to the **src/app/Services/token.service.ts** file and set the correct route to hit your backend.Used for token services and authentication when signing up. 
-* Run **ng serve** to spin up your local server.
-
-Please check the frontend repo link [here](https://github.com/Patwan/angular-frontend-spa)
-
 ## Backend Installation
 * Clone the backend folder using **git clone** into your favorite server
 **nginx** or **apache**
@@ -24,6 +15,8 @@ Please check the frontend repo link [here](https://github.com/Patwan/angular-fro
 * Copy env.example to **.env** and configure database credentials and mailtrap
  credentials incase you want to test reset password functionality locally.
 * Spin your server or docker containers if using docker.
+
+Please check the frontend repo link [here](https://github.com/Patwan/angular-frontend-spa)
 
 
 ## License
