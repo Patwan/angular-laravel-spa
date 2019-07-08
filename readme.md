@@ -12,6 +12,7 @@ This repo shows how to create a Single Page Application authentication system us
 * Clone the backend folder using **git clone** into your favorite server
 **nginx** or **apache**
 * Import the file called **database.sql** into your server.
+* Run **composer install** to install the depedencies
 * Copy env.example to **.env** and configure database credentials and mailtrap
  credentials incase you want to test reset password functionality locally.
 * Spin your server or docker containers if using docker.
